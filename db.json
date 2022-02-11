@@ -1,14 +1,218 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+    "Status": {
+        "code": 200,
+        "message": "Successfully retrieved."
+    },
+    "Result": [
+        {
+            "_id": "6206799c18d4337ef9148ba0",
+            "SpaClass": null,
+            "ItemName": null,
+            "ItemSubcategory": null,
+            "Category": null,
+            "VenueId": null,
+            "CourseId": null,
+            "Location": "999",
+            "module": "Golf",
+            "clientid": "62057ed9880cbd6fff6e64a1",
+            "__v": 0,
+            "bookingWindow": {
+                "timeZone": "America/Toronto",
+                "endSet": {
+                    "hour": "23",
+                    "minute": "59",
+                    "second": "59"
+                },
+                "endOffset": {},
+                "startSet": {
+                    "hour": "7",
+                    "minute": "00",
+                    "second": "00"
+                },
+                "startOffset": {}
+            }
+        },
+        {
+            "_id": "62069a4318d4337ef9148ba6",
+            "SpaClass": null,
+            "ItemName": null,
+            "ItemSubcategory": null,
+            "Category": null,
+            "VenueId": null,
+            "CourseId": "(8TC|FT9|D0D)",
+            "Location": "999",
+            "module": "Golf",
+            "clientid": "62057ed9880cbd6fff6e64a1",
+            "__v": 0,
+            "bookingWindow": {
+                "timeZone": "America/Toronto",
+                "endSet": {
+                    "hour": "23",
+                    "minute": "59",
+                    "second": "59"
+                },
+                "endOffset": {},
+                "startSet": {
+                    "hour": "7",
+                    "minute": "00",
+                    "second": "00"
+                },
+                "startOffset": {}
+            }
+        },
+        {
+            "_id": "62069a4d18d4337ef9148ba8",
+            "SpaClass": null,
+            "ItemName": null,
+            "ItemSubcategory": null,
+            "Category": null,
+            "VenueId": null,
+            "CourseId": null,
+            "Location": null,
+            "module": "Dining",
+            "clientid": "62057ed9880cbd6fff6e64a1",
+            "__v": 0,
+            "bookingWindow": {
+                "timeZone": "America/Toronto",
+                "endSet": {
+                    "hour": "23",
+                    "minute": "59",
+                    "second": "59"
+                },
+                "endOffset": {
+                    "Days": -1
+                },
+                "startSet": {
+                    "hour": "7",
+                    "minute": "00",
+                    "second": "00"
+                },
+                "startOffset": {
+                    "Days": -7
+                }
+            }
+        },
+        {
+            "_id": "62069a5418d4337ef9148ba9",
+            "SpaClass": null,
+            "ItemName": null,
+            "ItemSubcategory": null,
+            "Category": null,
+            "VenueId": "(Bar|Dining Room)",
+            "CourseId": null,
+            "Location": null,
+            "module": "Dining",
+            "clientid": "62057ed9880cbd6fff6e64a1",
+            "__v": 0,
+            "bookingWindow": {
+                "timeZone": "America/Toronto",
+                "endSet": {
+                    "hour": "23",
+                    "minute": "59",
+                    "second": "59"
+                },
+                "endOffset": {
+                    "Days": -1
+                },
+                "startSet": {
+                    "hour": "7",
+                    "minute": "00",
+                    "second": "00"
+                },
+                "startOffset": {
+                    "Days": -7
+                }
+            }
+        },
+        {
+            "_id": "62069a8c18d4337ef9148bad",
+            "SpaClass": null,
+            "ItemName": null,
+            "ItemSubcategory": null,
+            "Category": null,
+            "VenueId": null,
+            "CourseId": null,
+            "Location": null,
+            "module": "Spa",
+            "clientid": "62057ed9880cbd6fff6e64a1",
+            "__v": 0,
+            "bookingWindow": {
+                "timeZone": "America/Toronto",
+                "endSet": {
+                    "hour": "23",
+                    "minute": "59",
+                    "second": "59"
+                },
+                "endOffset": {
+                    "Days": -2
+                },
+                "startSet": {
+                    "hour": "7",
+                    "minute": "00",
+                    "second": "00"
+                },
+                "startOffset": {
+                    "Days": -15
+                }
+            }
+        },
+        {
+            "_id": "62069a6d18d4337ef9148baa",
+            "SpaClass": null,
+            "ItemName": "(Ryans Test Time Slot Item|USoft Test Service)",
+            "ItemSubcategory": "(Tools|Manicure|Pedicure)",
+            "Category": "(Spa Misc!!|Fitness)",
+            "VenueId": null,
+            "CourseId": null,
+            "Location": "999",
+            "module": "Spa",
+            "clientid": "62057ed9880cbd6fff6e64a1",
+            "__v": 0,
+            "bookingWindow": {
+                "timeZone": "America/Toronto",
+                "endSet": {
+                    "hour": "23",
+                    "minute": "59",
+                    "second": "59"
+                },
+                "endOffset": {
+                    "Days": -1
+                },
+                "startSet": {},
+                "startOffset": {}
+            }
+        },
+        {
+            "_id": "62069a7f18d4337ef9148bac",
+            "SpaClass": null,
+            "ItemName": null,
+            "ItemSubcategory": null,
+            "Category": null,
+            "VenueId": null,
+            "CourseId": null,
+            "Location": "999",
+            "module": "Spa",
+            "clientid": "62057ed9880cbd6fff6e64a1",
+            "__v": 0,
+            "bookingWindow": {
+                "timeZone": "America/Toronto",
+                "endSet": {
+                    "hour": "23",
+                    "minute": "59",
+                    "second": "59"
+                },
+                "endOffset": {
+                    "Days": -1
+                },
+                "startSet": {
+                    "hour": "7",
+                    "minute": "00",
+                    "second": "00"
+                },
+                "startOffset": {
+                    "Days": -7
+                }
+            }
+        }
+    ]
 }
